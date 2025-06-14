@@ -1,5 +1,5 @@
 # dermoST
-Code and Dataset for the manuscript "Dermoscopic Image Classification with Neural Style Transfer"
+Code and Dataset for the manuscript "Dermoscopic Image Classification with Neural Style Transfer" published in the Journal of Computational and Graphical Statistics (https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2061496).
 
 # Summary
 The dermoscopic images considered in the paper "Dermoscopic Image Classification with Neural Style Transfer" are available for public download through the ISIC database (https://www.isic-archive.com/#!/topWithHeader/wideContentTop/main). 
@@ -9,9 +9,7 @@ These are 24-bit JPEG images with a typical resolution of 768 × 512 pixels. How
 The lesion segmentation mask for each image, trained using U-net on the PH2 dataset (https://www.fc.up.pt/addi/ph2%20database.html) is also provided. This paper also considered both the ISIC 2016 and ISIC 2017 competitions on skin lesion classification. They are both available for download at https://challenge.isic-archive.com/data.
 
 # Datasets
-This is the documentation for the datasets described and analyzed in the manuscript "Dermoscopic Image Classification with Neural  Style Transfer" by Yutong Li, Ruoqing Zhu, Mike Yeh, and Annie Qu, published in the Journal of Computational and Graphical Statistics (https://www.tandfonline.com/doi/full/10.1080/10618600.2022.2061496).
-
-This document only discusses the constructed dataset of 1000 images. On the other hand, the ISIC 2016 and 2017 competitions can both be downloaded at "https://challenge.isic-archive.com/data". The PH2 dataset used to train the Unet to generate the segmentation mask for the constructed dataset can be downloaded from "https://www.fc.up.pt/addi/ph2%20database.html".
+This section only discusses the constructed dataset of 1000 images that is analyzed in detail in the manuscript. On the other hand, the ISIC 2016 and 2017 competitions can both be downloaded at "https://challenge.isic-archive.com/data". The PH2 dataset used to train the Unet to generate the segmentation mask for the constructed dataset can be downloaded from "https://www.fc.up.pt/addi/ph2%20database.html".
 
 There are six sub-folders in this dataset.
 
